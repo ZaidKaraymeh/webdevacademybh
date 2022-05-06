@@ -58,7 +58,7 @@
   <div class="row text-center my-5">
     <h1>Course Structure</h1>
   </div>
-  <div class="row my-5" style=" {% if 'col-sm' %} width:80%; {% else %}width: 50%{% endif %}">
+  <div id="enroll" class="row my-5" style=" {% if 'col-sm' %} width:80%; {% else %}width: 50%{% endif %}">
     <div class="col">
       <h2 class="text-center">Week 1</h2>
       <h5 class="text-center">Introduction to HTML/CSS</h5>
@@ -173,7 +173,7 @@
     />
   </div>
 </div>
-<section class="container-fluid m-0 p-0 bg-black text-white">
+<section id="learnmore" class="container-fluid m-0 p-0 bg-black text-white">
   <div class="row text-center">
     <h1>Sign Up</h1>
     <form method="POST" action="{% url 'sign_up' %}" class="p-4 d-flex flex-column justify-content-center align-items-center">
