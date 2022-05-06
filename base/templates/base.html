@@ -38,14 +38,8 @@
     </header>
     {% if messages %} 
         {% for message in messages %}
-            <div class="alert alert-{{ message.tags }} alert-dismissible fade show m-0 ">{{message}}  
-                <a 
-                    href="#" 
-                    class="close" 
-                    data-dismiss="alert" 
-                    aria-label="close"
-                    >&times;
-                    </a>
+            <div class="alert alert-{{ message.tags }} alert-dismissible fade show m-0 text-center">{{message}}  
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         {% endfor %} 
     {% endif %}
