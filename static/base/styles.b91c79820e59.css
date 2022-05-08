@@ -1,0 +1,9 @@
+.header {
+    background-image: url("./header2.f68bef15c8a8.jpg");
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+.trans {
+    object-fit:cover;
+}
