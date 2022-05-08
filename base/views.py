@@ -9,7 +9,7 @@ from .models import CourseSignUp
 
 def home(request):
     people = CourseSignUp.objects.all()
-    print(people)
+    # print(people)
     # if request.method == "POST":
     #     form = CourseSignUpForm(request.POST)
     #     if form.is_valid():
